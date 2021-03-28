@@ -1,0 +1,5 @@
+BaseMethod	QP	#QP, dSig, MutPat, or MutCon
+Signature	2	#2 or 3. 2 for V2 COSMIC signatures and 3 for V3.
+Signature List	all	#all or list of signature ID, e.g., Adenocarsinoma2:S1,S2,S4,S5,S6,S13,S17; Squamous2:S1,S2,S4,S5,S13; lung3:SBS1,SBS2,SBS3,SBS4,SBS5,SBS9,SBS13,SBS17a,SBS17b,SBS18,SBS28,SBS40
+Signature ID	Test	#optional when part of signature is given
+Rpath	Rscript

@@ -1,0 +1,7 @@
+S1	red
+S2	orange
+S4	green
+S5	blue
+S6	purple
+S13	brown
+S17	pink

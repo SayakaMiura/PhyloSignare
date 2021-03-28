@@ -1,0 +1,15 @@
+#BranchID	File
+B5	Datasets\TRACERx\CRUK0031\Clo5Clo7_MutCountFormat.csv
+B6	Datasets\TRACERx\CRUK0031\Clo6Clo8_MutCountFormat.csv
+B7	Datasets\TRACERx\CRUK0031\Clo7_MutCountFormat.csv
+B1	Datasets\TRACERx\CRUK0031\Clo2Clo3Clo5Clo6Clo7Clo8_MutCountFormat.csv
+B2	Datasets\TRACERx\CRUK0031\Clo2_MutCountFormat.csv
+B3	Datasets\TRACERx\CRUK0031\Clo3Clo5Clo7_MutCountFormat.csv
+B8	Datasets\TRACERx\CRUK0031\Clo8_MutCountFormat.csv
+#Tree
+B1->B2
+B1->B3
+B3->B5
+B1->B6
+B5->B7
+B6->B8
