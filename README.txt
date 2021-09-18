@@ -38,12 +38,12 @@ Each mutation needs to be classified into the conventional 96 mutation types (ht
 Example file: Example\Test-A.csv
 
 2. List the mutation count tables and the topology of clone phylogeny.
-This file needs to contain the topology of a clone phylogeny and information of branch ID and its corresponding mutation count table, which is prepared above (step 1). To describe the topology of a clone phylogeny, all ancestor and its direct descendant branch pairs should be listed by separating with “->.” For example, B1->B2 means B1 is ancestral branch, and B2 is its direct descendant branch. 
+This file needs to contain the topology of a clone phylogeny and information of branch ID and its corresponding mutation count table, which is prepared above (step 1). To describe the topology of a clone phylogeny, all ancestor and its direct descendant branch pairs should be listed by separating with â€œ->.â€ For example, B1->B2 means B1 is ancestral branch, and B2 is its direct descendant branch. 
 For example,
   #BranchID	File 
   B4	A.csv
   B5	B.csv
-  …
+  â€¦
   #Tree
   B1->B2
   B5->B3
@@ -78,6 +78,7 @@ python phylosignare.py Example\Test.input Control.txt
 If you like to generate a figure, in which all signatures are mapped on a clone phylogeny, please use the following command:
 python phylosignare.py Example\Test.input Control.txt Color.txt
 If you use this option, please install the python dependencies (pydot and graphviz).
+For this example dataset, the computation time will be a few minutes. 
 
 Output file
 ==================
@@ -101,7 +102,7 @@ Datasets
 All datasets used in ref [1] are found at the directory of input_files.
 
 Reference:
-[1] Sayaka Miura, Tracy Vu, Jiyeong Choi, and Sudhir Kumar, Phylomedicine of mutational processes in somatic cancer cell populations (2021) Submitted to eLife 
+[1] Sayaka Miura, Tracy Vu, Jiyeong Choi, Jeffrey P. Townsend, and Sudhir Kumar, Mutational processes in somatic cancer cell populations (2021) Under Review
 
 --------
 Copyright 2021, Authors and Temple University
